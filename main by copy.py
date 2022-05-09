@@ -17,14 +17,27 @@ def get_age():
 
 
 # Main Routine
+numbers = list(range(1,10))
+number_set = set(numbers)
+print(random.sample(number_set,1))
 name = get_name()  # 1st function
 age = get_age()  # 2nd function
-print('\nHi {name} at {age} years old this will be a piece of cake.\n'')
-answer = input('Would you like to start with Learning Numbers in te reo or a Quiz?')
-print('Welcome to the te reo quiz')
-if answer.lower() == 'learning numbers':
+print(f'\nHi {name} at {age} years old this will be a piece of cake.\n')
+answer = str(input('Would you like to start with Learning Numbers in te reo or a Quiz?'))
 
-answer = input('Are you ready to play the Quiz ? (yes/no) :')
+if answer.lower() == 'learning numbers' or 'numbers':
+    answer = str(input('Do you have experience with te reo maori'))
+    if answer.lower() == 'yes':
+        print("this will be a breeze then")
+    else:
+        print("thats okay ill make it easy")
+
+
+
+
+if answer.lower() == 'quiz':
+    print('Welcome to the te reo quiz')
+    answer = str(input('Are you ready to play the Quiz ? (yes/no) :'))
 score = 0
 total_questions = 3
 

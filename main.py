@@ -45,7 +45,24 @@ if answer.lower() == 'yes':
         score += 1
         print('correct')
 
-print('Thankyou for Playing this small quiz game, you got', score, "questions correctly!")
-mark = (score / total_questions) * 100
-print('your mark is:', mark)
-print('BYE!')
+    answer = input('Question 3: What is table in maori \n a.whanau \n b.papa \n c. tapu \n d. rapurangi\n')
+    while answer.lower() != 'tapu':
+        print('Wrong Answer :(')
+        answer = input('Question 1: What is table in maori \n a.whanau \n b.papa \n c. tapu \n d. rapurangi\n')
+
+
+    else:
+        score += 1
+        print('correct')
+
+    print('Thankyou for Playing this small quiz game, you got', score, "questions correct!")
+    mark = (score / total_questions) * 100
+    print('your mark is:', mark)
+    print('BYE!')
+
+
+
+
+
+
+
