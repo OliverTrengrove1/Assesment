@@ -17,21 +17,14 @@ def get_age():
 
 
 # Main Routine
-numbers = list(range(1,10))
-number_set = set(numbers)
-print(random.sample(number_set,1))
 name = get_name()  # 1st function
 age = get_age()  # 2nd function
+randlist2 = [random.randint(0, 10) for _ in range(0, 10)]  # 3rd function
 print(f'\nHi {name} at {age} years old this will be a piece of cake.\n')
 answer = str(input('Would you like to start with Learning Numbers in te reo or a Quiz?'))
 
 if answer.lower() == 'learning numbers' or 'numbers':
-    answer = str(input('Do you have experience with te reo maori'))
-    if answer.lower() == 'yes':
-        print("this will be a breeze then")
-    else:
-        print("thats okay ill make it easy")
-
+    print('what is',randlist2[-1],'in te reo maori')
 
 
 
