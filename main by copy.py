@@ -7,7 +7,7 @@ import random
 
 
 def get_name():
-    name_local = input("what is your name?:")
+    name_local = str(input("what is your name?:"))
     return name_local
 
 
@@ -25,6 +25,9 @@ answer = str(input('Would you like to start with Learning Numbers in te reo or a
 
 if answer.lower() == 'learning numbers' or 'numbers':
     print('what is',randlist2[-1],'in te reo maori')
+else:
+    answer = str(input('Would you like to start with Learning Numbers in te reo or a Quiz?'))
+
 
 
 

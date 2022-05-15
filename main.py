@@ -19,6 +19,7 @@ def get_age():
 # Main Routine
 name = get_name()  # 1st function
 age = get_age()  # 2nd function
+
 print(f'\nHi {name} at {age} years old this will be a piece of cake.\n')
 print('Welcome to the te reo quiz')
 answer = input('Are you ready to play the Quiz ? (yes/no) :')
@@ -59,10 +60,9 @@ if answer.lower() == 'yes':
     mark = (score / total_questions) * 100
     print('your mark is:', mark)
     print('BYE!')
+token_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, ]
 
-
-
-
-
-
-
+print('Welcome to te reo numbers learning option')
+answer = input('Are you ready to play the Quiz ? (yes/no) :')
+if answer.lower() == 'yes' or 'y':
+    print('what is', random.choice(token_list), 'in te reo maori')

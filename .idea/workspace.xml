@@ -39,7 +39,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.main by copy">
+  <component name="RunManager" selected="Python.main">
     <configuration name="fri" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Assesment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,10 +168,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main by copy" />
-        <item itemvalue="Python.testing lists" />
-        <item itemvalue="Python.testing" />
         <item itemvalue="Python.lolz" />
+        <item itemvalue="Python.testing" />
+        <item itemvalue="Python.testing lists" />
+        <item itemvalue="Python.main by copy" />
         <item itemvalue="Python.fri" />
       </list>
     </recent_temporary>
