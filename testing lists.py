@@ -8,3 +8,4 @@ print(randlist2[-1])
         print("this will be a breeze then")
     else:
         print("thats okay ill make it easy")
+
