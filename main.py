@@ -26,7 +26,7 @@ answer = input('Are you ready to play the Quiz ? (yes/no) :')
 score = 0
 total_questions = 6
 
-if answer.lower() == 'yes':
+if answer.lower() == 'yes'or'y':
     answer = input('Question 1: What is one in maori \n a.rua \n b.seven \n c.tahi \n d. uno\n')
 
     while answer.lower() != 'tahi':
@@ -76,7 +76,11 @@ if answer.lower() == 'yes':
         score += 1
         print('correct')
 
-    print('Thankyou for Playing this small quiz game, you got', score, "questions correct!")
-    mark = (score / total_questions) * 100
-    print('your mark is:', mark)
-    print('BYE!')
+elif answer.lower() != 'yes':
+    print('ok thank you for considering')
+
+
+print('Thanks for playing, you got\n', score, "\nquestions correct!")
+mark = (score / total_questions) * 100
+print('your mark is:', mark)
+print('BYE!')
